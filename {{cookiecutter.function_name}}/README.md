@@ -28,6 +28,8 @@ Build dist dir to be deployed:
 $ make build
 ```
 
+Github actions will just need a Service Account with role [`roles/cloudfunctions.admin`](https://cloud.google.com/functions/docs/reference/iam/roles#cloudfunctions.admin).
+
 ## Running locally
 
 ```shell
