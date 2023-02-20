@@ -1,7 +1,7 @@
 {{ cookiecutter.project_name }}
 ===============================================
 
-Project for function `{{ cookiecutter.function_name }}`
+Project for function `{{ cookiecutter.function_name }}`.
 
 ## Requirements
 
