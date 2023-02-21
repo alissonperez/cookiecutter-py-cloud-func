@@ -47,6 +47,8 @@ $ make build
 
 Github actions will just need a Service Account with role [`roles/cloudfunctions.admin`](https://cloud.google.com/functions/docs/reference/iam/roles#cloudfunctions.admin).
 
+Generate a SA, a key file and add a secret called `SERVICE_ACCOUNT_CREDENTIALS_JSON` in Github Secrets with the content of the key file.
+
 ## Running locally
 
 ```shell
