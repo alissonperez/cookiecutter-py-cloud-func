@@ -11,6 +11,7 @@ env:
   REGION: us-central1
   RUNTIME: python310
 
+{% raw %}
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -66,3 +67,4 @@ jobs:
             --trigger-http \
             --source=./dist/ \
             --allow-unauthenticated
+{% endraw %}
