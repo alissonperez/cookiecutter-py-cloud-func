@@ -16,7 +16,7 @@ clean-dist:
 
 build: clean-dist
 	mkdir dist
-	cp Pipfile* ./dist/
+	pipenv requirements > ./dist/requirements.txt
 	cp README* ./dist/
 	cp main.py ./dist/
 	cp -R ./{{ cookiecutter.function_name }} ./dist/
