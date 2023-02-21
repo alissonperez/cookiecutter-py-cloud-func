@@ -5,6 +5,9 @@ install:
 lint:
 	pipenv run flake8 .
 
+test:
+	pipenv run pytest
+
 run:
 	pipenv run functions-framework --target {{ cookiecutter.function_name }} --debug
 
