@@ -66,5 +66,6 @@ jobs:
             --runtime=${{ env.RUNTIME }} \
             --trigger-http \
             --source=./dist/ \
+            --memory=128Mi \
             --allow-unauthenticated
 {% endraw %}
