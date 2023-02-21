@@ -15,6 +15,12 @@ Project for function `{{ cookiecutter.function_name }}`.
 $ make install
 ```
 
+### `Pipfile.lock`
+
+This file is used to lock the versions of the dependencies. It is generated automatically when you run `make install`.
+
+You **must commit this file** to your version control system.
+
 ## Lint
 
 ```
