@@ -1,5 +1,6 @@
 {
     "project_name": "Python Boilerplate",
     "function_name": "{{ cookiecutter.project_name | slugify | replace('-', '') }}",
-    "gcp_project_id": "my-gcp-project-id"
+    "gcp_project_id": "my-gcp-project-id",
+    "public_available": false
 }
