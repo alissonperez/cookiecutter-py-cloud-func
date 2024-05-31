@@ -6,5 +6,5 @@ Cookiecutter template for GCP Cloud Function with Python.
 To use it:
 
 ```bash
-$ cookiecutter https://github.com/cookiecutter-py-cloud-func/
+$ cookiecutter https://github.com/alissonperez/cookiecutter-py-cloud-func
 ```
